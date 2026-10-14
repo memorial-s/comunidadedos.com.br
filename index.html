@@ -312,7 +312,7 @@ footer a:hover{color:#fff}
 <div class="page" id="inicio">
   <div class="hero">
     <div class="hero-txt">
-      <span class="eyebrow">Campanha S de Quem Somos · Roger · João Pessoa</span>
+      <span class="eyebrow">S de Quem Somos · Roger · João Pessoa</span>
       <h1>A memória de um <em>território vivo</em></h1>
       <p>Este memorial reúne histórias, fotografias, lugares e vozes da Comunidade do S, para que a trajetória de quem construiu este território seja lembrada, contada e preservada pelos próprios moradores.</p>
       <div style="display:flex;gap:12px;flex-wrap:wrap">
@@ -320,7 +320,7 @@ footer a:hover{color:#fff}
         <a href="#/contribua" class="btn btn-l">Contribua com uma memória</a>
       </div>
     </div>
-    <div class="ph dark img" style="position:relative;background-image:url(fotos/foto04.jpg)">
+    <div class="ph dark img" style="position:relative;background-image:url(fotos/foto04.JPG)">
       <span>FOTO PRINCIPAL</span>
       <div class="cap">Mural “Viva Comunidade do S” · [ano · foto de …]</div>
     </div>
@@ -586,7 +586,7 @@ footer a:hover{color:#fff}
 const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
 
 /* ---------- FOTOS: arquivos na pasta "fotos" ---------- */
-const F=n=>`fotos/foto${String(n).padStart(2,'0')}.jpg`;
+const F=n=>`fotos/foto${String(n).padStart(2,'0')}.JPG`;
 function ph(n,cls='',label='',style=''){
   return `<div class="ph ${cls} ${n?'img':''}" style="${n?`background-image:url(${F(n)});`:''}${style}"><span>${label}</span></div>`;
 }
